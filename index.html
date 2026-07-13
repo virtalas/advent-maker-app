@@ -1,51 +1,365 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Advent Maker</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Advent Maker</h1>
-        </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advent Maker — Digital Advent Calendar App | Make &amp; Share Your Own</title>
+  <meta name="description" content="Make your own digital advent calendar with photos, videos, messages & a snowman behind 24 doors. Free advent calendar app for iPhone, iPad & Mac — no login, share with anyone.">
+  <link rel="canonical" href="https://virtalas.github.io/advent-maker-app/">
+  <link rel="alternate" hreflang="en" href="https://virtalas.github.io/advent-maker-app/">
+  <link rel="alternate" hreflang="ja" href="https://virtalas.github.io/advent-maker-app/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/advent-maker-app/">
+  <link rel="icon" href="assets/icon-180.png">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="preload" as="image" href="assets/icon-512.png">
+  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Advent Maker — Make Your Own Digital Advent Calendar">
+  <meta property="og:description" content="Fill 24 doors with photos, videos, messages & a snowman, then share it with anyone. Free, no login, privacy-first.">
+  <meta property="og:url" content="https://virtalas.github.io/advent-maker-app/">
+  <meta property="og:image" content="https://virtalas.github.io/advent-maker-app/assets/icon-1024.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Advent Maker: Advent Calendars",
+    "operatingSystem": "iOS, iPadOS, macOS",
+    "applicationCategory": "LifestyleApplication",
+    "description": "Make your own digital advent calendar and share it for free. Personalize 24 doors with photos, text, video, or a snowman — no login required.",
+    "image": "https://virtalas.github.io/advent-maker-app/assets/icon-1024.png",
+    "url": "https://virtalas.github.io/advent-maker-app/",
+    "installUrl": "https://apps.apple.com/app/id6753888474",
+    "author": { "@type": "Person", "name": "Lasse Virtanen" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "4" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I make a digital advent calendar on my iPhone?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Download Advent Maker free from the App Store, tap New calendar, and fill each of the 24 doors with a photo, text message, video, or an interactive snowman. There is no account or login — you can finish a personalized advent calendar in about ten minutes." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use my own photos in the advent calendar?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every door can hold a photo from your library, so you can turn 24 favorite memories into a photo advent calendar. You can combine photos with text captions and videos." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I send an advent calendar to someone far away?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Tap Share calendar and send the calendar file with AirDrop, WhatsApp, Telegram, or email. The recipient opens it in the free Advent Maker app on their iPhone, iPad, or Mac — no account needed on either side." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Advent Maker a free advent calendar app?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes — Advent Maker is completely free to download and use, with no subscription, no ads, and no login. Creating and sharing calendars costs nothing." }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I put behind the 24 doors?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Popular door ideas include family photos, short video clips, YouTube links, daily messages or jokes, memories from the past year, and the built-in snowman. Mix small daily surprises with a bigger reveal on December 24th." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it suitable for kids?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Advent Maker is rated 4+, has no ads, no chat, no account, and collects no data, which makes it a safe digital advent calendar for kids. Doors unlock day by day, so children cannot peek ahead." }
+      },
+      {
+        "@type": "Question",
+        "name": "When do the advent calendar doors open?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Doors unlock one per day through December, building a countdown to Christmas. The app shows how many days are left, and each door can only be opened when its day arrives." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the recipient need an account to open my calendar?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. The person you share with just installs the free Advent Maker app and opens the calendar file you sent. No login, sign-up, or personal data is required. It works on iPhone, iPad, and Mac." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
 
-        <a href="https://apple.co/4hBorQQ">
-            <img src="app_store_badge_en.svg" alt="Download on the App Store" style="margin-bottom:20px;">
-        </a>
+  <div class="sky" aria-hidden="true">
+    <div class="aurora"></div>
+    <div class="stars stars-sm"></div>
+    <div class="stars stars-lg"></div>
+    <div class="moon"></div>
+    <div class="shooting-star s1"></div>
+    <div class="shooting-star s2"></div>
+  </div>
 
-        <main>
-            <section>
-                <p>Make your own advent calendar and share it for free, no login required!</p>
+  <nav class="nav" aria-label="Main">
+    <div class="nav-inner">
+      <a class="nav-brand" href="./">
+        <img src="assets/icon-180.png" alt="Advent Maker app icon" width="36" height="36">
+        Advent Maker
+      </a>
+      <div class="nav-links">
+        <a href="#how-it-works">How it works</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#guides">Guides</a>
+        <a href="#faq">FAQ</a>
+        <a href="ja/" lang="ja">日本語</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6753888474">Download</a>
+      </div>
+    </div>
+  </nav>
 
-                <p>Personalize its 24 doors with</p>
-                <ul>
-                    <li>Photo</li>
-                    <li>Text</li>
-                    <li>Video</li>
-                    <li>Snowman</li>
-                </ul>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <img class="hero-logo" src="assets/icon-512.png" alt="Advent Maker app icon — a snowman under a starry night sky" width="140" height="140" fetchpriority="high">
+        <h1>Make Your Own <em>Digital Advent Calendar</em> — and Share It with Anyone</h1>
+        <p class="lede">Advent Maker is the free advent calendar app for iPhone, iPad, and Mac. Fill 24 doors with photos, videos, messages, and a snowman, then send your personalized calendar to someone you love. No login. No ads. No data collection.</p>
+        <div class="hero-badges" id="download">
+          <a href="https://apps.apple.com/app/id6753888474">
+            <img src="assets/app_store_badge_en.svg" alt="Download Advent Maker on the App Store" width="168" height="56">
+          </a>
+          <span class="hero-rating"><strong>★★★★★</strong> 4.9 on the App Store · Free</span>
+        </div>
+        <div class="trust-row">
+          <span class="chip">No account needed</span>
+          <span class="chip">24 customizable doors</span>
+          <span class="chip">Share via AirDrop, WhatsApp &amp; more</span>
+          <span class="chip">Privacy-first</span>
+        </div>
+      </div>
+      <div class="phone" aria-label="Advent Maker app screens">
+        <div class="phone-screens">
+          <img src="assets/raw/en/1.webp" alt="Advent calendar with 24 numbered doors in the Advent Maker app" width="600" height="1299" fetchpriority="high">
+          <img src="assets/raw/en/2.webp" alt="Sharing the advent calendar under a starry night sky with Santa and a snowman" width="600" height="1299" loading="lazy">
+          <img src="assets/raw/en/3.webp" alt="Opening door 15 with the Christmas countdown showing days left" width="600" height="1299" loading="lazy">
+          <img src="assets/raw/en/4.webp" alt="Editing a door: add photos, text, video, or a snowman" width="600" height="1299" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"></div>
+    <div class="snow-drift" aria-hidden="true"></div>
+  </header>
 
-                <p>
-                    Share your advent calendar easily with anyone on iPhone, iPad, or Mac — just send them the calendar file.
-                </p>
+  <main>
 
-                <p>
-                    Privacy first: We don’t collect your data — only iCloud sync and embedded YouTube videos may handle information as part of their services.
-                    Read more in our <a href="privacy-policy.html">Privacy Policy</a>.
-                </p>
+    <section class="section" aria-label="Download">
+      <div class="container">
+        <div class="download-strip">
+          <img src="assets/icon-180.png" alt="Advent Maker icon" style="height:64px;width:64px;border-radius:15px;">
+          <div>
+            <div class="price">Free on the App Store — no subscription, no ads</div>
+            <div class="sub">For iPhone, iPad &amp; Mac · iOS 18.5 or later</div>
+          </div>
+          <a href="https://apps.apple.com/app/id6753888474">
+            <img src="assets/app_store_badge_en.svg" alt="Download on the App Store" width="168" height="56">
+          </a>
+        </div>
+      </div>
+    </section>
 
-                <h2>Contact us</h2>
-                <p>Contact us at savoryscores (at) gmail.com.</p>
-            </section>
-        </main>
+    <section class="section alt" id="screenshots">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Screenshots</span>
+          <h2>A personalized advent calendar in your pocket</h2>
+          <p>Create, decorate, and open doors day by day — here's what it looks like.</p>
+        </div>
+        <div class="shots">
+          <figure>
+            <img src="assets/screenshots/en/iphone/1.webp" alt="Make and share advent calendars — calendar grid with 24 doors on iPhone" loading="lazy" width="230" height="498">
+            <figcaption>24 doors, your design</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/en/iphone/2.webp" alt="Add photos, text, video, or a snowman to each advent calendar door" loading="lazy" width="230" height="498">
+            <figcaption>Photos, text, video &amp; snowman</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/en/iphone/3.webp" alt="Advent calendar door with Christmas countdown showing days left" loading="lazy" width="230" height="498">
+            <figcaption>Doors unlock day by day</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/en/iphone/4.webp" alt="Share the advent calendar screen with Santa and snowman illustration" loading="lazy" width="230" height="498">
+            <figcaption>Share with one tap</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/en/iphone/5.webp" alt="My calendars and received advent calendars on shelves in the app" loading="lazy" width="230" height="498">
+            <figcaption>Made &amp; received calendars</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
-        <footer>
-            <p>&copy; 2025 Lasse Virtanen</p>
-        </footer>
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">How it works</span>
+          <h2>From idea to advent calendar in three steps</h2>
+          <p>No craft supplies, no printing, no login — just your phone and 24 little surprises.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Create your calendar</h3>
+            <p>Start a new calendar and fill each of the 24 doors with a photo, a message, a video, or an interactive snowman. Mix and match freely — every door can be different.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>Share it with anyone</h3>
+            <p>Send the calendar as a single file via AirDrop, WhatsApp, Telegram, or email. The recipient opens it in the free app on iPhone, iPad, or Mac — no account required.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>Open a door a day</h3>
+            <p>From December 1st, one door unlocks each day, counting down to Christmas. No peeking ahead — the daily surprise is the magic.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- <div style="width: 100%; background: #fff; text-align: center; box-shadow: 0 -2px 8px rgba(0,0,0,0.05);"></div>
-            <img src="ten_wide_alpha.png" alt="Advent Maker" style="width: 100%; max-width: 400px; max-width: min(400px, 70vw); height: auto; display: block; margin: 0 auto;">
-        </div> -->
-    </body>
+    <section class="section alt" id="guides">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Guides</span>
+          <h2>Advent calendar guides &amp; ideas</h2>
+          <p>Everything you need to plan, fill, and send the perfect digital advent calendar.</p>
+        </div>
+        <div class="guide-grid">
+          <a class="guide-card" href="guides/how-to-make-a-digital-advent-calendar.html">
+            <span class="tag">How-to</span>
+            <h3>How to Make a Digital Advent Calendar (Free, in 10 Minutes)</h3>
+            <p>The complete step-by-step guide — no craft supplies needed.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="guide-card" href="guides/photo-advent-calendar.html">
+            <span class="tag">Ideas</span>
+            <h3>Photo Advent Calendar: Turn 24 Memories into a Countdown</h3>
+            <p>Use your own photos to make a deeply personal gift.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="guide-card" href="guides/long-distance-advent-calendar.html">
+            <span class="tag">Couples</span>
+            <h3>Long-Distance Advent Calendar for Your Partner</h3>
+            <p>24 daily surprises that close the distance in December.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="guide-card" href="guides/advent-calendar-for-kids.html">
+            <span class="tag">Family</span>
+            <h3>A Digital Advent Calendar for Kids</h3>
+            <p>Safe, ad-free, and impossible to peek ahead.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="guide-card" href="guides/what-to-put-in-a-digital-advent-calendar.html">
+            <span class="tag">Ideas</span>
+            <h3>What to Put in a Digital Advent Calendar: 24+ Door Ideas</h3>
+            <p>For partners, kids, parents, friends, and coworkers.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="guide-card" href="guides/christmas-countdown-app.html">
+            <span class="tag">Countdown</span>
+            <h3>A Christmas Countdown App with a Door for Every Day</h3>
+            <p>Count down to Christmas with a daily ritual, not just a timer.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="guide-card" href="guides/advent-calendar-for-grandparents.html">
+            <span class="tag">Family</span>
+            <h3>An Advent Calendar for Grandparents</h3>
+            <p>Send grandma and grandpa a daily dose of the grandkids.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="guide-card" href="guides/virtual-advent-calendar.html">
+            <span class="tag">How-to</span>
+            <h3>Virtual Advent Calendar: Make One Online &amp; Send It Anywhere</h3>
+            <p>How virtual calendars work and how to deliver yours.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>How do I make a digital advent calendar on my iPhone?</summary>
+            <p>Download Advent Maker free from the App Store, tap <strong>New calendar</strong>, and fill each of the 24 doors with a photo, text, video, or snowman. No account or login is needed — most people finish in about ten minutes. <a class="learn-more" href="guides/how-to-make-a-digital-advent-calendar.html">Learn more →</a></p>
+          </details>
+          <details>
+            <summary>Can I use my own photos in the advent calendar?</summary>
+            <p>Yes — every door can hold a photo from your library, so 24 favorite memories become a photo advent calendar. Combine photos with captions and video for extra impact. <a class="learn-more" href="guides/photo-advent-calendar.html">Learn more →</a></p>
+          </details>
+          <details>
+            <summary>How do I send an advent calendar to someone far away?</summary>
+            <p>Tap <strong>Share calendar</strong> and send the calendar file via AirDrop, WhatsApp, Telegram, or email. They open it in the free app — perfect for long-distance relationships and family abroad. <a class="learn-more" href="guides/long-distance-advent-calendar.html">Learn more →</a></p>
+          </details>
+          <details>
+            <summary>Is Advent Maker a free advent calendar app?</summary>
+            <p>Completely free: no purchase, no subscription, no ads, no login. Creating and sharing calendars costs nothing. <a class="learn-more" href="guides/virtual-advent-calendar.html">Learn more →</a></p>
+          </details>
+          <details>
+            <summary>What should I put behind the 24 doors?</summary>
+            <p>Family photos, short videos, YouTube links, daily jokes or compliments, memories from the year, and the built-in snowman are all favorites. Save something special for December 24th. <a class="learn-more" href="guides/what-to-put-in-a-digital-advent-calendar.html">Learn more →</a></p>
+          </details>
+          <details>
+            <summary>Is it suitable for kids?</summary>
+            <p>Yes — rated 4+, with no ads, no chat, no account, and no data collection. Doors unlock day by day, so kids can't peek ahead. <a class="learn-more" href="guides/advent-calendar-for-kids.html">Learn more →</a></p>
+          </details>
+          <details>
+            <summary>When do the advent calendar doors open?</summary>
+            <p>One door unlocks per day through December, counting down to Christmas Eve. The app shows how many days are left until the next door. <a class="learn-more" href="guides/christmas-countdown-app.html">Learn more →</a></p>
+          </details>
+          <details>
+            <summary>Does the recipient need an account to open my calendar?</summary>
+            <p>No. They just install the free app and open your calendar file — no sign-up, no personal data. Works on iPhone, iPad, and Mac. <a class="learn-more" href="guides/virtual-advent-calendar.html">Learn more →</a></p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Download Advent Maker">
+      <div class="container">
+        <div class="cta">
+          <img class="icon" src="assets/icon-180.png" alt="" width="76" height="76">
+          <h2>Someone's December is about to get better.</h2>
+          <p>Make your own advent calendar today — it's free, takes minutes, and they'll open a little piece of it every day until Christmas.</p>
+          <a href="https://apps.apple.com/app/id6753888474">
+            <img src="assets/app_store_badge_en.svg" alt="Download Advent Maker on the App Store" width="168" height="56">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2026 Lasse Virtanen · <a href="privacy-policy.html">Privacy Policy</a> · Contact: savoryscores (at) gmail.com</div>
+      <div class="lang"><a href="ja/" lang="ja">日本語版はこちら →</a></div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var sky = document.querySelector('.sky');
+      if (!sky || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var ticking = false;
+      function update() {
+        var max = innerHeight * 0.18;
+        sky.style.transform = 'translateY(-' + Math.min(scrollY * 0.25, max) + 'px)';
+        ticking = false;
+      }
+      addEventListener('scroll', function () {
+        if (!ticking) { requestAnimationFrame(update); ticking = true; }
+      }, { passive: true });
+    })();
+  </script>
+
+</body>
 </html>

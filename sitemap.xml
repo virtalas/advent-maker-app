@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://virtalas.github.io/advent-maker-app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/advent-maker-app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/advent-maker-app/ja/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://virtalas.github.io/advent-maker-app/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/advent-maker-app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/advent-maker-app/ja/"/>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/how-to-make-a-digital-advent-calendar.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/photo-advent-calendar.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/long-distance-advent-calendar.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/advent-calendar-for-kids.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/what-to-put-in-a-digital-advent-calendar.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/christmas-countdown-app.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/advent-calendar-for-grandparents.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/guides/virtual-advent-calendar.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/advent-calendar-how-to-make.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/advent-calendar-ideas.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/christmas-countdown-app.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/long-distance-christmas-surprise.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/advent-calendar-for-kids.html</loc><priority>0.8</priority></url>
+  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/what-is-advent-calendar.html</loc><priority>0.8</priority></url>
+</urlset>
