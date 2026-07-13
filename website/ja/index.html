@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advent Maker — アドベントカレンダー作成アプリ｜無料でオリジナルを作る</title>
+  <meta name="description" content="スマホで簡単にオリジナルのアドベントカレンダーを手作り。24個の窓に写真・動画・メッセージ・雪だるまを入れて、大切な人に無料で共有。ログイン不要のiPhone/iPad/Macアプリ。">
+  <link rel="canonical" href="https://virtalas.github.io/advent-maker-app/website/ja/">
+  <link rel="alternate" hreflang="en" href="https://virtalas.github.io/advent-maker-app/website/">
+  <link rel="alternate" hreflang="ja" href="https://virtalas.github.io/advent-maker-app/website/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/advent-maker-app/website/">
+  <link rel="icon" href="../assets/icon-180.png">
+  <link rel="apple-touch-icon" href="../assets/icon-180.png">
+  <link rel="preload" as="image" href="../assets/icon-512.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Advent Maker — オリジナルのアドベントカレンダーを作れる無料アプリ">
+  <meta property="og:description" content="24個の窓に写真・動画・メッセージ・雪だるまを入れて、大切な人へ。無料・ログイン不要・広告なし。">
+  <meta property="og:url" content="https://virtalas.github.io/advent-maker-app/website/ja/">
+  <meta property="og:image" content="https://virtalas.github.io/advent-maker-app/website/assets/icon-1024.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Advent Maker: アドベントカレンダー",
+    "operatingSystem": "iOS, iPadOS, macOS",
+    "applicationCategory": "LifestyleApplication",
+    "description": "オリジナルのアドベントカレンダーの作成・共有を無料で。24個の窓を写真・文字・動画・雪だるまで自由にカスタマイズ。ログイン不要。",
+    "image": "https://virtalas.github.io/advent-maker-app/website/assets/icon-1024.png",
+    "url": "https://virtalas.github.io/advent-maker-app/website/ja/",
+    "installUrl": "https://apps.apple.com/jp/app/id6753888474",
+    "author": { "@type": "Person", "name": "Lasse Virtanen" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "2" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "スマホでアドベントカレンダーを作るには？",
+        "acceptedAnswer": { "@type": "Answer", "text": "App StoreからAdvent Makerを無料でダウンロードし、「新しいカレンダー」をタップ。24個の窓それぞれに写真・文字・動画・雪だるまを自由に入れるだけです。ログインやアカウント登録は不要で、10分ほどで完成します。" }
+      },
+      {
+        "@type": "Question",
+        "name": "自分の写真でアドベントカレンダーを作れますか？",
+        "acceptedAnswer": { "@type": "Answer", "text": "はい。すべての窓にカメラロールの写真を入れられるので、思い出の写真24枚でオリジナルのフォトアドベントカレンダーが作れます。写真に文字や動画を組み合わせることもできます。" }
+      },
+      {
+        "@type": "Question",
+        "name": "遠くに住む相手にアドベントカレンダーを送れますか？",
+        "acceptedAnswer": { "@type": "Answer", "text": "「カレンダーを共有」をタップして、AirDrop・LINE・メールなどでカレンダーファイルを送るだけ。受け取った人は無料アプリで開けます。遠距離の恋人や離れて暮らす家族へのサプライズにぴったりです。" }
+      },
+      {
+        "@type": "Question",
+        "name": "アプリは本当に無料ですか？",
+        "acceptedAnswer": { "@type": "Answer", "text": "完全無料です。課金・サブスクリプション・広告・ログインは一切ありません。作成も共有も無料でできます。" }
+      },
+      {
+        "@type": "Question",
+        "name": "アドベントカレンダーの中身は何を入れればいい？",
+        "acceptedAnswer": { "@type": "Answer", "text": "家族や恋人との写真、短い動画、YouTubeのリンク、毎日のメッセージ、1年の思い出、雪だるまなどが人気です。24日（クリスマスイブ）には特別なサプライズを用意しましょう。" }
+      },
+      {
+        "@type": "Question",
+        "name": "子ども向けにも使えますか？",
+        "acceptedAnswer": { "@type": "Answer", "text": "はい。対象年齢4+、広告なし・チャットなし・アカウント不要・データ収集なしなので、子どもにも安心です。窓は1日1つずつしか開かないので、先の日をのぞき見できません。" }
+      },
+      {
+        "@type": "Question",
+        "name": "窓はいつ開けられますか？",
+        "acceptedAnswer": { "@type": "Answer", "text": "12月1日から毎日1つずつ窓が開けられるようになり、クリスマスまでカウントダウンします。アプリには残りの日数も表示されます。" }
+      },
+      {
+        "@type": "Question",
+        "name": "受け取る側もアカウント登録が必要ですか？",
+        "acceptedAnswer": { "@type": "Answer", "text": "不要です。無料アプリをインストールして、送られてきたカレンダーファイルを開くだけ。iPhone・iPad・Macで使えます。" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <div class="sky" aria-hidden="true">
+    <div class="aurora"></div>
+    <div class="stars stars-sm"></div>
+    <div class="stars stars-lg"></div>
+    <div class="moon"></div>
+    <div class="shooting-star s1"></div>
+    <div class="shooting-star s2"></div>
+  </div>
+
+  <nav class="nav" aria-label="メイン">
+    <div class="nav-inner">
+      <a class="nav-brand" href="./">
+        <img src="../assets/icon-180.png" alt="Advent Makerのアプリアイコン" width="36" height="36">
+        Advent Maker
+      </a>
+      <div class="nav-links">
+        <a href="#how-it-works">使い方</a>
+        <a href="#screenshots">スクリーンショット</a>
+        <a href="#guides">ガイド</a>
+        <a href="#faq">よくある質問</a>
+        <a href="../" lang="en">English</a>
+        <a class="nav-cta" href="https://apps.apple.com/jp/app/id6753888474">ダウンロード</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <img class="hero-logo" src="../assets/icon-512.png" alt="Advent Makerのアプリアイコン — 星空の下の雪だるま" width="140" height="140" fetchpriority="high">
+        <h1>オリジナルの<em>アドベントカレンダー</em>をスマホで手作り</h1>
+        <p class="lede">Advent Makerは、無料でアドベントカレンダーを作成・共有できるiPhone/iPad/Macアプリ。24個の窓に写真・動画・メッセージ・雪だるまを入れて、大切な人に贈りましょう。ログイン不要、広告なし、データ収集なし。</p>
+        <div class="hero-badges" id="download">
+          <a href="https://apps.apple.com/jp/app/id6753888474">
+            <img src="../assets/app_store_badge_ja.svg" alt="App StoreでAdvent Makerをダウンロード" width="168" height="56">
+          </a>
+          <span class="hero-rating"><strong>★★★★★</strong> App Store評価 4.9 · 無料</span>
+        </div>
+        <div class="trust-row">
+          <span class="chip">アカウント登録不要</span>
+          <span class="chip">24個の窓を自由にカスタマイズ</span>
+          <span class="chip">AirDrop・LINE・メールで共有</span>
+          <span class="chip">プライバシー最優先</span>
+        </div>
+      </div>
+      <div class="phone" aria-label="Advent Makerのアプリ画面">
+        <div class="phone-screens">
+          <img src="../assets/raw/ja/1.webp" alt="24個の窓が並ぶアドベントカレンダー画面" width="600" height="1299" fetchpriority="high">
+          <img src="../assets/raw/ja/2.webp" alt="星空の下でカレンダーを共有する画面（サンタと雪だるま）" width="600" height="1299" loading="lazy">
+          <img src="../assets/raw/ja/3.webp" alt="15日の窓を開ける画面。クリスマスまでの残り日数を表示" width="600" height="1299" loading="lazy">
+          <img src="../assets/raw/ja/4.webp" alt="窓の編集画面：写真・文字・動画・雪だるまを追加" width="600" height="1299" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"></div>
+    <div class="snow-drift" aria-hidden="true"></div>
+  </header>
+
+  <main>
+
+    <section class="section" aria-label="ダウンロード">
+      <div class="container">
+        <div class="download-strip">
+          <img src="../assets/icon-180.png" alt="Advent Makerアイコン" style="height:64px;width:64px;border-radius:15px;">
+          <div>
+            <div class="price">App Storeで無料 — 課金・広告なし</div>
+            <div class="sub">iPhone・iPad・Mac対応 · iOS 18.5以降</div>
+          </div>
+          <a href="https://apps.apple.com/jp/app/id6753888474">
+            <img src="../assets/app_store_badge_ja.svg" alt="App Storeでダウンロード" width="168" height="56">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="screenshots">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">スクリーンショット</span>
+          <h2>ポケットの中のオリジナルアドベントカレンダー</h2>
+          <p>作って、飾って、毎日1つずつ窓を開ける——アプリの画面をご紹介。</p>
+        </div>
+        <div class="shots">
+          <figure>
+            <img src="../assets/screenshots/ja/iphone/1.webp" alt="アドベントカレンダーの作成・共有 — 24個の窓が並ぶカレンダー画面" loading="lazy" width="230" height="498">
+            <figcaption>24個の窓を自由にデザイン</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/screenshots/ja/iphone/2.webp" alt="窓に写真・文字・動画・雪だるまを追加する編集画面" loading="lazy" width="230" height="498">
+            <figcaption>写真・文字・動画・雪だるま</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/screenshots/ja/iphone/3.webp" alt="クリスマスまでの残り日数が表示されたカウントダウン画面" loading="lazy" width="230" height="498">
+            <figcaption>窓は1日1つずつ開く</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/screenshots/ja/iphone/4.webp" alt="サンタと雪だるまのイラストが描かれたカレンダー共有画面" loading="lazy" width="230" height="498">
+            <figcaption>ワンタップで共有</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/screenshots/ja/iphone/5.webp" alt="作ったカレンダーと受け取ったカレンダーが棚に並ぶホーム画面" loading="lazy" width="230" height="498">
+            <figcaption>作った＆もらったカレンダー</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">使い方</span>
+          <h2>3ステップで完成するアドベントカレンダーの作り方</h2>
+          <p>工作の材料も、印刷も、ログインも不要。スマホと24個の小さなサプライズだけ。</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>カレンダーを作る</h3>
+            <p>新しいカレンダーを作成し、24個の窓それぞれに写真・メッセージ・動画・雪だるまを入れます。窓ごとに違う中身にできるので、世界に一つだけのカレンダーに。</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>大切な人に共有する</h3>
+            <p>カレンダーを1つのファイルとしてAirDrop・LINE・メールなどで送信。受け取った人は無料アプリで開くだけ。アカウント登録は一切不要です。</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>毎日1つ窓を開ける</h3>
+            <p>12月1日から毎日1つずつ窓が開き、クリスマスへカウントダウン。先の窓は開けられないから、毎日のお楽しみが続きます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="guides">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">ガイド</span>
+          <h2>アドベントカレンダーのガイド＆アイデア</h2>
+          <p>作り方から中身のアイデアまで、デジタルアドベントカレンダーのすべて。</p>
+        </div>
+        <div class="guide-grid">
+          <a class="guide-card" href="guides/advent-calendar-how-to-make.html">
+            <span class="tag">作り方</span>
+            <h3>アドベントカレンダーの作り方 — スマホで簡単・無料・10分</h3>
+            <p>材料なしで作れるデジタル版の完全ガイド。</p>
+            <span class="more">ガイドを読む →</span>
+          </a>
+          <a class="guide-card" href="guides/advent-calendar-ideas.html">
+            <span class="tag">アイデア</span>
+            <h3>アドベントカレンダーの中身 — 24日分のアイデア集</h3>
+            <p>恋人・子ども・家族・友達、贈る相手別のアイデア。</p>
+            <span class="more">ガイドを読む →</span>
+          </a>
+          <a class="guide-card" href="guides/christmas-countdown-app.html">
+            <span class="tag">カウントダウン</span>
+            <h3>クリスマスカウントダウンアプリ — 毎日窓を開けて待つ</h3>
+            <p>「あと何日」を数えるだけじゃない、毎日の楽しみを。</p>
+            <span class="more">ガイドを読む →</span>
+          </a>
+          <a class="guide-card" href="guides/long-distance-christmas-surprise.html">
+            <span class="tag">恋人</span>
+            <h3>遠距離の恋人へのクリスマスサプライズ</h3>
+            <p>会えない12月も、毎日ひとつずつ届く贈り物。</p>
+            <span class="more">ガイドを読む →</span>
+          </a>
+          <a class="guide-card" href="guides/advent-calendar-for-kids.html">
+            <span class="tag">家族</span>
+            <h3>子ども向けアドベントカレンダー — 写真と動画で毎朝わくわく</h3>
+            <p>広告なし・安心設計。のぞき見もできません。</p>
+            <span class="more">ガイドを読む →</span>
+          </a>
+          <a class="guide-card" href="guides/what-is-advent-calendar.html">
+            <span class="tag">基礎知識</span>
+            <h3>アドベントカレンダーとは？意味・由来・いつから開ける？</h3>
+            <p>歴史と楽しみ方、そして自分で作る方法まで。</p>
+            <span class="more">ガイドを読む →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>よくある質問</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>スマホでアドベントカレンダーを作るには？</summary>
+            <p>App StoreからAdvent Makerを無料でダウンロードし、「新しいカレンダー」をタップ。24個の窓に写真・文字・動画・雪だるまを入れるだけです。ログイン不要で、10分ほどで完成します。<a class="learn-more" href="guides/advent-calendar-how-to-make.html">詳しく見る →</a></p>
+          </details>
+          <details>
+            <summary>自分の写真でアドベントカレンダーを作れますか？</summary>
+            <p>はい。すべての窓にカメラロールの写真を入れられるので、思い出の写真24枚でオリジナルのフォトカレンダーが作れます。<a class="learn-more" href="guides/advent-calendar-how-to-make.html">詳しく見る →</a></p>
+          </details>
+          <details>
+            <summary>遠くに住む相手に送れますか？</summary>
+            <p>「カレンダーを共有」からAirDrop・LINE・メールなどでファイルを送るだけ。遠距離の恋人や離れて暮らす家族へのサプライズにぴったりです。<a class="learn-more" href="guides/long-distance-christmas-surprise.html">詳しく見る →</a></p>
+          </details>
+          <details>
+            <summary>アプリは本当に無料ですか？</summary>
+            <p>完全無料です。課金・サブスク・広告・ログインは一切ありません。<a class="learn-more" href="guides/advent-calendar-how-to-make.html">詳しく見る →</a></p>
+          </details>
+          <details>
+            <summary>中身は何を入れればいい？</summary>
+            <p>写真、短い動画、YouTubeリンク、毎日のメッセージ、1年の思い出、雪だるまなどが人気です。24日には特別なサプライズを。<a class="learn-more" href="guides/advent-calendar-ideas.html">詳しく見る →</a></p>
+          </details>
+          <details>
+            <summary>子ども向けにも使えますか？</summary>
+            <p>対象年齢4+、広告なし・アカウント不要・データ収集なし。窓は1日1つずつしか開かないので、のぞき見の心配もありません。<a class="learn-more" href="guides/advent-calendar-for-kids.html">詳しく見る →</a></p>
+          </details>
+          <details>
+            <summary>窓はいつ開けられますか？</summary>
+            <p>12月1日から毎日1つずつ。クリスマスまでの残り日数もアプリに表示されます。<a class="learn-more" href="guides/christmas-countdown-app.html">詳しく見る →</a></p>
+          </details>
+          <details>
+            <summary>受け取る側もアカウント登録が必要ですか？</summary>
+            <p>不要です。無料アプリを入れて、送られてきたファイルを開くだけ。iPhone・iPad・Macで使えます。<a class="learn-more" href="guides/what-is-advent-calendar.html">詳しく見る →</a></p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Advent Makerをダウンロード">
+      <div class="container">
+        <div class="cta">
+          <img class="icon" src="../assets/icon-180.png" alt="" width="76" height="76">
+          <h2>あの人の12月が、もっと楽しみになる。</h2>
+          <p>今日、世界に一つだけのアドベントカレンダーを作りませんか？無料で、10分で完成。クリスマスまで毎日、少しずつ開けてもらえます。</p>
+          <a href="https://apps.apple.com/jp/app/id6753888474">
+            <img src="../assets/app_store_badge_ja.svg" alt="App StoreでAdvent Makerをダウンロード" width="168" height="56">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2026 Lasse Virtanen · <a href="../../privacy-policy.html">プライバシーポリシー</a> · お問い合わせ: savoryscores (at) gmail.com</div>
+      <div class="lang"><a href="../" lang="en">English version →</a></div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var sky = document.querySelector('.sky');
+      if (!sky || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var ticking = false;
+      function update() {
+        var max = innerHeight * 0.18;
+        sky.style.transform = 'translateY(-' + Math.min(scrollY * 0.25, max) + 'px)';
+        ticking = false;
+      }
+      addEventListener('scroll', function () {
+        if (!ticking) { requestAnimationFrame(update); ticking = true; }
+      }, { passive: true });
+    })();
+  </script>
+
+</body>
+</html>
