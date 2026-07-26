@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://virtalas.github.io/advent-maker-app/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/advent-maker-app/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/advent-maker-app/ja/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/advent-maker-app/fi/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/advent-maker-app/"/>
+    <loc>https://adventmaker.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/"/>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://virtalas.github.io/advent-maker-app/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/advent-maker-app/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/advent-maker-app/ja/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/advent-maker-app/fi/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/advent-maker-app/"/>
+    <loc>https://adventmaker.app/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/"/>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://virtalas.github.io/advent-maker-app/fi/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/advent-maker-app/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/advent-maker-app/ja/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/advent-maker-app/fi/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/advent-maker-app/"/>
+    <loc>https://adventmaker.app/fi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/"/>
     <priority>1.0</priority>
   </url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/how-to-make-a-digital-advent-calendar.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/photo-advent-calendar.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/long-distance-advent-calendar.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/advent-calendar-for-kids.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/what-to-put-in-a-digital-advent-calendar.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/christmas-countdown-app.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/advent-calendar-for-grandparents.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/guides/virtual-advent-calendar.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/advent-calendar-how-to-make.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/advent-calendar-ideas.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/christmas-countdown-app.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/long-distance-christmas-surprise.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/advent-calendar-for-kids.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/ja/guides/what-is-advent-calendar.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/itse-tehty-joulukalenteri.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/mita-laittaa-joulukalenteriin.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/aineeton-joulukalenteri.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/joulukalenteri-lapselle.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/joulukalenteri-puolisolle.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/valokuvajoulukalenteri.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/joulukalenteri-isovanhemmille.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/joulukalenteri-sovellus.html</loc><priority>0.8</priority></url>
-  <url><loc>https://virtalas.github.io/advent-maker-app/fi/guides/mika-on-adventtikalenteri.html</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/photo-advent-calendar</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/long-distance-advent-calendar</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/advent-calendar-for-kids</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/christmas-countdown-app</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/advent-calendar-for-grandparents</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/guides/virtual-advent-calendar</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/ja/guides/advent-calendar-how-to-make</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/ja/guides/advent-calendar-ideas</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/ja/guides/christmas-countdown-app</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/ja/guides/long-distance-christmas-surprise</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/ja/guides/advent-calendar-for-kids</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/ja/guides/what-is-advent-calendar</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/itse-tehty-joulukalenteri</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/mita-laittaa-joulukalenteriin</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/aineeton-joulukalenteri</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-lapselle</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-puolisolle</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/valokuvajoulukalenteri</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-isovanhemmille</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-sovellus</loc><priority>0.8</priority></url>
+  <url><loc>https://adventmaker.app/fi/guides/mika-on-adventtikalenteri</loc><priority>0.8</priority></url>
 </urlset>
