@@ -1,4 +1,9 @@
+# Content Signals: https://contentsignals.org/
+# search: allow search indexing
+# ai-input: allow use in AI answers (e.g. AI search, RAG) so the app can be cited
+# ai-train: allow use for training AI models (helps models learn about the app)
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 Sitemap: https://adventmaker.app/sitemap.xml
