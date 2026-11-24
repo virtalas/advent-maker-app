@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://adventmaker.app/</loc>
+    <lastmod>2026-09-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/"/>
@@ -10,6 +11,7 @@
   </url>
   <url>
     <loc>https://adventmaker.app/ja/</loc>
+    <lastmod>2026-09-23</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/"/>
@@ -18,33 +20,210 @@
   </url>
   <url>
     <loc>https://adventmaker.app/fi/</loc>
+    <lastmod>2026-09-19</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/"/>
     <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/"/>
     <priority>1.0</priority>
   </url>
-  <url><loc>https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/guides/photo-advent-calendar</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/guides/long-distance-advent-calendar</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/guides/advent-calendar-for-kids</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/guides/christmas-countdown-app</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/guides/advent-calendar-for-grandparents</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/guides/virtual-advent-calendar</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/ja/guides/advent-calendar-how-to-make</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/ja/guides/advent-calendar-ideas</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/ja/guides/christmas-countdown-app</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/ja/guides/long-distance-christmas-surprise</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/ja/guides/advent-calendar-for-kids</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/ja/guides/what-is-advent-calendar</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/itse-tehty-joulukalenteri</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/mita-laittaa-joulukalenteriin</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/aineeton-joulukalenteri</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-lapselle</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-puolisolle</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/valokuvajoulukalenteri</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-isovanhemmille</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/joulukalenteri-sovellus</loc><priority>0.8</priority></url>
-  <url><loc>https://adventmaker.app/fi/guides/mika-on-adventtikalenteri</loc><priority>0.8</priority></url>
+  <url>
+    <loc>https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/itse-tehty-joulukalenteri"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-how-to-make"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/guides/photo-advent-calendar</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/photo-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/valokuvajoulukalenteri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/photo-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/guides/long-distance-advent-calendar</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/long-distance-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-puolisolle"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/long-distance-christmas-surprise"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/long-distance-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/guides/advent-calendar-for-kids</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/advent-calendar-for-kids"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-lapselle"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-for-kids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/advent-calendar-for-kids"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/mita-laittaa-joulukalenteriin"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-ideas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/guides/christmas-countdown-app</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/christmas-countdown-app"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-sovellus"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/christmas-countdown-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/christmas-countdown-app"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/guides/advent-calendar-for-grandparents</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/advent-calendar-for-grandparents"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-isovanhemmille"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/advent-calendar-for-grandparents"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/guides/virtual-advent-calendar</loc>
+    <lastmod>2026-07-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/virtual-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/aineeton-joulukalenteri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/virtual-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/ja/guides/advent-calendar-how-to-make</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/itse-tehty-joulukalenteri"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-how-to-make"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/ja/guides/advent-calendar-ideas</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/mita-laittaa-joulukalenteriin"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-ideas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/ja/guides/christmas-countdown-app</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/christmas-countdown-app"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-sovellus"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/christmas-countdown-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/christmas-countdown-app"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/ja/guides/long-distance-christmas-surprise</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/long-distance-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-puolisolle"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/long-distance-christmas-surprise"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/long-distance-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/ja/guides/advent-calendar-for-kids</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/advent-calendar-for-kids"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-lapselle"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-for-kids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/advent-calendar-for-kids"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/ja/guides/what-is-advent-calendar</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/mika-on-adventtikalenteri"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/what-is-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/fi/guides/mika-on-adventtikalenteri"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/itse-tehty-joulukalenteri</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/itse-tehty-joulukalenteri"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-how-to-make"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/how-to-make-a-digital-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/mita-laittaa-joulukalenteriin</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/mita-laittaa-joulukalenteriin"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-ideas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/what-to-put-in-a-digital-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/aineeton-joulukalenteri</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/virtual-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/aineeton-joulukalenteri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/virtual-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/joulukalenteri-lapselle</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/advent-calendar-for-kids"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-lapselle"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/advent-calendar-for-kids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/advent-calendar-for-kids"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/joulukalenteri-puolisolle</loc>
+    <lastmod>2026-07-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/long-distance-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-puolisolle"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/long-distance-christmas-surprise"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/long-distance-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/valokuvajoulukalenteri</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/photo-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/valokuvajoulukalenteri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/photo-advent-calendar"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/joulukalenteri-isovanhemmille</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/advent-calendar-for-grandparents"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-isovanhemmille"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/advent-calendar-for-grandparents"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/joulukalenteri-sovellus</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://adventmaker.app/guides/christmas-countdown-app"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/joulukalenteri-sovellus"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/christmas-countdown-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/guides/christmas-countdown-app"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adventmaker.app/fi/guides/mika-on-adventtikalenteri</loc>
+    <lastmod>2026-09-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://adventmaker.app/fi/guides/mika-on-adventtikalenteri"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://adventmaker.app/ja/guides/what-is-advent-calendar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adventmaker.app/fi/guides/mika-on-adventtikalenteri"/>
+    <priority>0.8</priority>
+  </url>
 </urlset>

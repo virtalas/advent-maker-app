@@ -243,6 +243,10 @@ a { color: #2a4a86; }
   border-radius: 999px; font-weight: 600;
 }
 .nav-cta:hover { background: var(--red-700); }
+.nav-brand, .nav-links a { white-space: nowrap; }
+.nav-brand { flex-shrink: 0; }
+/* Longer localized labels (e.g. Japanese) wrap at tablet widths: drop the less important section links first */
+@media (max-width: 960px) { .nav-links a[href="#how-it-works"], .nav-links a[href="#screenshots"] { display: none; } }
 @media (max-width: 760px) { .nav-links a:not(.nav-cta) { display: none; } }
 
 /* ================= Hero (full-screen sky) ================= */
